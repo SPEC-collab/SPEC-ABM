@@ -1,8 +1,8 @@
-defmodule SpecabmTest do
+defmodule SPECabmTest do
   use ExUnit.Case
-  doctest Specabm
+  doctest SPECabm
 
   test "greets the world" do
-    assert Specabm.hello() == :world
+    assert SPECabm.hello() == :world
   end
 end

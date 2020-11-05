@@ -1,6 +1,6 @@
-defmodule Specabm do
+defmodule SPECabm do
   @moduledoc """
-  Documentation for `Specabm`.
+  Documentation for `SPECabm`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Specabm do
 
   ## Examples
 
-      iex> Specabm.hello()
+      iex> SPECabm.hello()
       :world
 
   """

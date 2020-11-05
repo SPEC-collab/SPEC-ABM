@@ -1,4 +1,4 @@
-defmodule Specabm.MixProject do
+defmodule SPECabm.MixProject do
   use Mix.Project
 
   def project do
@@ -15,7 +15,7 @@ defmodule Specabm.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {Specabm.Application, []}
+      mod: {SPECabm.Application, []}
     ]
   end
 
