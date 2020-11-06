@@ -1,4 +1,4 @@
-# Specabm
+# SPECabm
 
 **TODO: Add description**
 

@@ -7,7 +7,16 @@ defmodule SPECabm.MixProject do
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+
+      # Documentation
+      name: "SPECabm",
+      authors: ["SPEC team"],
+      source_url: "https://github.com/SPEC-collab/SPEC-ABM",
+      homepage_url: "http://wiki.spec-abm.site/wiki/Main_Page",
+      docs: [main: "SPECabm", # The main page in the docs
+          logo: "assets/logo.png",
+          extras: ["README.md"]]
     ]
   end
 
@@ -22,8 +31,8 @@ defmodule SPECabm.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:horde, "~> 0.7.0"},
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
 end
